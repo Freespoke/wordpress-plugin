@@ -1,0 +1,31 @@
+{
+    "name": "freespoke\/partner",
+    "description": "A client library for interacting with the Freespoke Partner API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FreespokeDeps\\Freespoke\\Partner\\": "src\/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FreespokeDeps\\Freespoke\\Partner\\Tests\\": "tests\/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Pedrie",
+            "email": "john@freespoke.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8",
+        "guzzlehttp\/guzzle": "^7.10",
+        "league\/oauth2-client": "^2.7"
+    },
+    "require-dev": {
+        "phpunit\/phpunit": "^9.6"
+    }
+}
