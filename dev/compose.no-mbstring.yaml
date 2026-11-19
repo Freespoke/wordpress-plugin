@@ -1,0 +1,11 @@
+# Overlay that makes WordPress look like a host without the mbstring extension,
+# which WordPress recommends but does not require. The official image compiles
+# mbstring in statically, so the ini disables the functions the plugin would
+# call instead; function_exists() then reports them missing.
+#
+#   docker compose -f compose.yaml -f compose.no-mbstring.yaml up -d wordpress
+#   docker compose exec wordpress php -r 'var_dump(function_exists("mb_strtolower"));'   # bool(false)
+services:
+  wordpress:
+    volumes:
+      - ./mock-api/no-mbstring.ini:/usr/local/etc/php/conf.d/zz-no-mbstring.ini:ro

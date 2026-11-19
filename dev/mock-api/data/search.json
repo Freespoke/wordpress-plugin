@@ -1,0 +1,11 @@
+{
+  "data": {
+    "search_id": "dev-search",
+    "news": [
+      {"id": "n1", "title": "WATCH: Inside Vance's First-Ever Florida Rally", "datePublished": "2026-10-03T14:00:00Z", "url": "https://www.dailysignal.com/2026/10/03/watch-inside-vances-first-ever-florida-rally/", "images": [], "publisherIcon": "", "publisherName": "The Daily Signal"},
+      {"id": "n2", "title": "Trump Suggests 10-Person Committee to 'Watch Over' AI", "datePublished": "2026-09-29T12:00:00Z", "url": "https://www.dailysignal.com/2026/09/29/trump-suggests-10-person-committee-to-watch-over-ai/", "images": [], "publisherIcon": "", "publisherName": "The Daily Signal"},
+      {"id": "n3", "title": "Vance Wants Senate to Pass Anti-Fraud Legislation, He Tells Daily Signal", "datePublished": "2026-09-22T20:03:00Z", "url": "https://www.dailysignal.com/2026/09/22/vance-senate-anti-fraud-legislation/", "images": [], "publisherIcon": "", "publisherName": "The Daily Signal"},
+      {"id": "n4", "title": "Trump Responds to Concerns About Canada Trade War Raising US Prices", "datePublished": "2026-08-27T16:00:00Z", "url": "https://www.dailysignal.com/2026/08/27/trump-concerns-canada-trade-war/", "images": [], "publisherIcon": "", "publisherName": "The Daily Signal"}
+    ]
+  }
+}
